@@ -37,8 +37,11 @@ same as in [here](https://github.com/zengarden/light_head_rcnn) except learning 
 same as in [here](https://github.com/zengarden/light_head_rcnn).
 
 ## Result:
+The bold text on the top line is the result of the [original paper](https://arxiv.org/pdf/1711.07264.pdf).
+
 |                             Train data                          |                             Test data                           | ImageNet backbone accuracy at 224*224 (%) |   Base model   | Input resolution |     GPU    |   FPS  | Epochs | mAP (%) |
 |:---------------------------------------------------------------:|:---------------------------------------------------------------:|:-----------------------------------------:|:---------------|:----------------:|:----------:|:------:|:------:|:-------:|
+|            [MSCOCO](http://cocodataset.org/#download)           |            [MSCOCO](http://cocodataset.org/#download)           |    **65.9**                                  |    **xception***   |     **700x1100**     | **TITAN XP** |  **102** |   -   |   **30.7**  |
 |            [MSCOCO](http://cocodataset.org/#download)           |            [MSCOCO](http://cocodataset.org/#download)           |    65.0                                  |    xception*   |     700x1100     | GTX 1080Ti |  51.89 |   30   |   26.1  |
 |            [MSCOCO](http://cocodataset.org/#download)           |            [MSCOCO](http://cocodataset.org/#download)           |    65.0                                  |    xception*   |     700x1100     | TITAN X PASCAL |  31.0 |   30   |   26.1  |
 |            [VOC07](http://http://host.robots.ox.ac.uk/pascal/VOC/voc2007/)           |            [VOC07](http://http://host.robots.ox.ac.uk/pascal/VOC/voc2007/)           |    65.0                                  |    xception*   |     700x1100     | GTX 1080Ti |  54.07 |   -   |   62.0  |
