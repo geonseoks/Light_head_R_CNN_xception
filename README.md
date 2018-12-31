@@ -6,21 +6,24 @@ The source code in this repository contain [*Light-Head R-CNN: In Defense of Two
 
 ## Requirement:
 Same as in [here](https://github.com/zengarden/light_head_rcnn).
-To use the xception* networks, the ckpt files for [xception*](https://drive.google.com/drive/folders/1BlY20isT_MJcJxWE_m03sLaoOPtmlPXn) has to be downloaded.
-
 
 ## Installation:
 1. Clone the Light_head_R_CNN_xception repository.
 ```
 git clone https://github.com/geonseoks/Light_head_R_CNN_xception
 ```
-2. Move the resnet_v1.py and resnet_utils.py into ~your_light_head_rcnn_original_directory/lib/utils/tf_utils/basemodel.
+2. To use the xception* networks, the ckpt files for [xception*](https://drive.google.com/drive/folders/1BlY20isT_MJcJxWE_m03sLaoOPtmlPXn) has to be downloaded. Move the ckpt file into ~your_light_head_rcnn_original_directory/data/imagenet_weights.
 
-3. Move the network_desp.py into ~your_light_head_rcnn_original_directory/experiments/user/network_desp.py.
+3. Move the resnet_v1.py and resnet_utils.py into ~your_light_head_rcnn_original_directory/lib/utils/tf_utils/basemodel.
+
+4. Move the network_desp.py into ~your_light_head_rcnn_original_directory/experiments/user/network_desp.py.
 
 File structure as follows:
 ```
 ~Your_light_head_rcnn_original_directory/
+    |->data
+    |    |->imagenet_weights
+    |    |    |->model.ckpt-3081378.ckpt
     |->experiments
     |    |->user
     |    |    |->network_desp.py
