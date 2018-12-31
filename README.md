@@ -31,7 +31,7 @@ File structure as follows:
 ```
 
 ## Train:
-same as in [here](https://github.com/zengarden/light_head_rcnn).
+same as in [here](https://github.com/zengarden/light_head_rcnn) except learning rate (basic_lr = 5e-4 * train_batch_per_gpu * 0.7 is better).
 
 ## Evalution:
 same as in [here](https://github.com/zengarden/light_head_rcnn).
