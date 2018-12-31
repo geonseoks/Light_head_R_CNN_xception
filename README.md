@@ -6,6 +6,8 @@ The source code in this repository contain [*Light-Head R-CNN: In Defense of Two
 
 ## Requirement:
 same as in [here](https://github.com/zengarden/light_head_rcnn).
+To use the xception* networks, the ckpt files for [xception*](https://drive.google.com/drive/folders/1BlY20isT_MJcJxWE_m03sLaoOPtmlPXn) has to be downloaded.
+
 
 ## Installation:
 1. Clone the Light_head_R_CNN_xception repository.
