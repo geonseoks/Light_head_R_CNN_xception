@@ -5,7 +5,7 @@ The source code in this repository contain [*Light-Head R-CNN: In Defense of Two
 ![](pictures/xception.png)
 
 ## Requirement:
-same as in [here](https://github.com/zengarden/light_head_rcnn).
+Same as in [here](https://github.com/zengarden/light_head_rcnn).
 To use the xception* networks, the ckpt files for [xception*](https://drive.google.com/drive/folders/1BlY20isT_MJcJxWE_m03sLaoOPtmlPXn) has to be downloaded.
 
 
@@ -33,10 +33,10 @@ File structure as follows:
 ```
 
 ## Train:
-same as in [here](https://github.com/zengarden/light_head_rcnn) except learning rate (basic_lr = 5e-4 * train_batch_per_gpu * 0.7 is better).
+Same as in [here](https://github.com/zengarden/light_head_rcnn) except learning rate (basic_lr = 5e-4 * train_batch_per_gpu * 0.7 is better).
 
 ## Evalution:
-same as in [here](https://github.com/zengarden/light_head_rcnn).
+Same as in [here](https://github.com/zengarden/light_head_rcnn).
 
 ## Result:
 The bold text on the top line is the result of the [original paper](https://arxiv.org/pdf/1711.07264.pdf).
